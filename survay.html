@@ -1,0 +1,93 @@
+<html>
+    <head>
+        <style>
+            h1{
+                text-align: center;
+            }
+            .form1{
+                background-color: aqua;
+            
+            }
+          
+
+            .divv{
+                margin-left: 250 ;
+              
+              text-align: left;
+            }
+            table{background-color: rgb(252, 248, 242);
+            margin: auto;}
+        </style>
+    </head>
+    <body>
+        <form class="form1">
+       <div> <h1 >Survay Form</h1></div>
+       <div>
+        <form class="form2">
+        <table>
+            <tr>
+       
+            <td colspan="2">
+                <p style="text-align: right;"  >let us know we can improve freeCodeCamp</p></td>
+                    <form>
+
+                
+            </tr>
+            <tr>
+        <td><div class="divv"><label for="Name" > * Name: </label></td>
+             <td> <input name="name" placeholder="Enter your name" /></div><br></td>
+        <tr>
+           <td> <div class="divv"><label for="Email">* Email:</label></td>
+            <td>  <input name="Email" placeholder="Enter your Email"/></div></td>
+</tr>
+
+
+
+              <tr> 
+           <td> <div class="divv" >
+            <label for="ages">* Age:</label></td>
+             <td>  
+                <select name="ages" id="ages">
+                    <option value="25" selected>25</option>
+                    <option value="26">26</option>
+                    <option value="27">27</option>
+                    
+                  </select><br><br>
+
+        </div></td></tr>
+       <tr> <div>
+            <td ><label for="student" >Which option best describes your current role?</label></td>
+           <td> <select id="student" name="student" >
+            <option value="student" selected>student</option>
+            <option value="employee">employee</option>       
+      </select><br><br>
+        </div></td></tr>
+        <div>
+            <tr>
+          <td> <label for="codecamp">* How likely is that you would recommend freeCodeCamp to a friend?</label></td>
+           <td><div><input type="radio" name="codecamp"/>Definitely</div>
+           <div><input type="radio" name="codecamp"/>Maybay </div>
+           <div><input type="radio" name="codecamp"/>Not sure</div>
+        </div><br><br></td></tr>
+        <tr><div>
+           <td> <label for="fcc">Whiat do you like most in FCC?</label></td>
+            <td><select id="fcc" name="fcc" aria-placeholder="select an option" >
+            <option value="fcc1" >FCC1</option>
+            <option value="fcce">FCC2</option>
+         
+      </select><br><br>
+        </div></td></tr>
+        <tr><div>
+            <td><label for="web">Thing that should be improved in the future <br>(check all that apply):</label></td>
+            <td><div><input type="radio" name="Front-end"/>Front-end projects</div>
+            <div><input type="radio" name="back-end"/>Back-end projects</div>
+        <div> <input type="radio" name="data"/>Data Visulization </div>
+         </div><br><br>
+         <div></td></tr>
+       
+       </div>
+    </table>
+    </form>
+</form>
+    </body>
+</html>
